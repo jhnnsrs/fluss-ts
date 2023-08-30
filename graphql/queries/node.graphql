@@ -1,0 +1,5 @@
+query ConstantNode($id: ID!) {
+  node(id: $id) {
+    ...Ports
+  }
+}

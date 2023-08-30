@@ -1,0 +1,5 @@
+query Reservations($instanceId: String!) {
+  reservations(exclude: [ENDED, CRITICAL, CANCELLED], instanceId: $instanceId) {
+    ...PostmanReservation
+  }
+}

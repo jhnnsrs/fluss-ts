@@ -1,0 +1,57 @@
+{
+  "name": "@jhnnsrs/rekuest",
+  "version": "0.0.14",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "test": "vitest",
+    "rekuest": "graphql-codegen --config rekuest.yml",
+    "p": "yarn publish --access public"
+  },
+  "files": [
+    "dist"
+  ],
+  "module": "./dist/rekuest.mjs",
+  "types": "./dist/index.d.ts",
+  "dependencies": {
+    "handlebars": "^4.7.8",
+    "subscriptions-transport-ws": "^0.11.0",
+    "yup": "^1.2.0"
+  },
+  "devDependencies": {
+    "@graphql-codegen/add": "^3.2.1",
+    "@graphql-codegen/cli": "^2.8.1",
+    "@graphql-codegen/fragment-matcher": "^3.3.0",
+    "@graphql-codegen/introspection": "^2.2.0",
+    "@graphql-codegen/typescript": "^2.7.1",
+    "@graphql-codegen/typescript-operations": "^2.5.1",
+    "@graphql-codegen/typescript-react-apollo": "^3.3.1",
+    "@jhnnsrs/fakts": "0.1.16",
+    "@jhnnsrs/herre": "0.0.11",
+    "@testing-library/react": "^13.4.0",
+    "@types/apollo-upload-client": "^17.0.1",
+    "@types/react": "^18.0.17",
+    "@types/react-dom": "^18.0.6",
+    "@vitejs/plugin-react": "^2.1.0",
+    "fakts": "^0.0.13",
+    "formik": "^2.2.9",
+    "happy-dom": "^6.0.4",
+    "herre": "^0.0.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router": "^6.4.1",
+    "react-router-dom": "^6.4.1",
+    "typescript": "^4.6.4",
+    "vite": "^3.1.0",
+    "vite-plugin-dts": "^1.6.3",
+    "vitest": "^0.23.4"
+  },
+  "peerDependencies": {
+    "@apollo/client": "^3.7.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "subscriptions-transport-ws": "^0.11.0"
+  }
+}
