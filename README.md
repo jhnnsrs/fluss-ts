@@ -1,3 +1,3 @@
-# herre
+# fluss-ts
 
-Implements an Oauth2/Openid connect authorization-code protocol
+A minimal typescript client to interact with the fluss graphql service
